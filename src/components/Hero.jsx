@@ -16,7 +16,7 @@ const container = (delay) => ({
 const Hero = () => {
     return (
         <div id="home"
-            className="flex flex-col-reverse md:flex-row items-center justify-between px-4 md:px-16 py-8 md:py-16 min-h-screen">
+            className="flex flex-col-reverse md:flex-row items-center justify-between px-4 md:px-16 py-8 md:py-16 min-h-screen pt-24">
             {/* Left Content */}
             <div className="text-center md:text-left">
                 <motion.h1
@@ -94,7 +94,7 @@ const Hero = () => {
                 </motion.div>
             </div>
             {/* Right Image */}
-            <div className="relative w-96 h-96 md:w-112 md:h-112 mx-auto md:mx-0">
+            <div className="relative w-80 h-80 sm:w-96 sm:h-96 md:w-112 md:h-112 mx-0 md:mx-0">
                 <div className="absolute inset-0 bg-opacity-10 rounded-full"></div>
                 <motion.img
                     initial={{ x: 100, opacity: 0 }}

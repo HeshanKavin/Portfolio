@@ -4,7 +4,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false); // State to toggle the mobile menu
 
     return (
-        <nav className="flex justify-between items-center px-6 pt-5">
+        <nav className="fixed flex top-0 left-0 right-0 justify-between items-center  px-10 md:px-40 py-5 z-50 bg-[#03141D]">
             {/* Logo */}
             <h1 className="text-2xl font-bold text-blue-400">&lt;/HesHan&gt;</h1>
 
@@ -47,7 +47,7 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             {isOpen && (
-                <ul className="absolute top-16 left-0 w-full bg-[#03141D] flex flex-col gap-6 text-center text-lg p-6 md:hidden">
+                <ul className="absolute top-16 left-0 w-full bg-[#03141D] flex flex-col gap-6 text-center text-lg p-6 md:hidden z-50">
                     <li>
                         <a
                             href="#home"
