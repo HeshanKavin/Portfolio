@@ -54,12 +54,12 @@ const Skills = () => {
     ];
 
     return (
-        <div id="skills" className="border-y border-cyan-300 pb-10">
+        <div id="skills" className="border-y border-blue-400 pb-10">
             <motion.h1
                 initial={{ y: -100, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
-                className="my-16 text-center text-4xl underline decoration-cyan-300 decoration-2 underline-offset-4">
+                className="my-16 text-center text-4xl underline decoration-blue-400 decoration-2 underline-offset-4">
                 Skills
             </motion.h1>
             <motion.div
@@ -76,10 +76,10 @@ const Skills = () => {
                         <motion.div
                             variants={iconVariants(5)}
                             key={index}
-                            className="flex flex-col items-center justify-center rounded-2xl border-4 border-cyan-200 p-4 w-28 h-28 "
+                            className="flex flex-col items-center justify-center rounded-2xl border-4 border-blue-400 p-4 w-28 h-28 "
                         >
                             {skill.icon}
-                            <span className="mt-2 text-sm text-cyan-300">{skill.label}</span>
+                            <span className="mt-2 text-sm text-blue-400">{skill.label}</span>
                         </motion.div>
                     ))}
                 </motion.div>

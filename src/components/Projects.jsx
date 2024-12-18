@@ -5,12 +5,12 @@ import { motion } from 'framer-motion';
 
 const Projects = () => {
     return (
-        <div id="projects" className="border-y border-cyan-300 pb-10">
+        <div id="projects" className="border-y border-blue-400 pb-10">
             <motion.h1
                 initial={{ y: -100, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
-                className="my-16 text-center text-4xl underline decoration-cyan-300 decoration-2 underline-offset-4">
+                className="my-16 text-center text-4xl underline decoration-blue-400 decoration-2 underline-offset-4">
                 Projects
             </motion.h1>
             <div>
@@ -35,11 +35,11 @@ const Projects = () => {
                             transition={{ duration: 1 }}
                             className="w-full max-w-xl lg:w-3/4">
                             <h6 className="mb-6 font-semibold">{project.title}</h6>
-                            <p className="mb-4 text-cyan-300">{project.description}</p>
+                            <p className="mb-4 text-blue-400">{project.description}</p>
                             {project.technologies.map((tech, index) => (
                                 <span
                                     key={index}
-                                    className="mr-2 rounded bg-cyan-300 px-2 py-1 text-sm font-medium text-purple-800"
+                                    className="mr-2 rounded bg-blue-400 px-2 py-1 text-sm font-medium text-blue-800"
                                 >{tech}</span>
                             ))}
                         </motion.div>
