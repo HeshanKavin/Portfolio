@@ -79,7 +79,7 @@ const Skills = () => {
                             className="flex flex-col items-center justify-center rounded-2xl border-4 border-blue-400 p-4 w-28 h-28 "
                         >
                             {skill.icon}
-                            <span className="mt-2 text-sm text-blue-400">{skill.label}</span>
+                            <span className="mt-2 text-sm text-white">{skill.label}</span>
                         </motion.div>
                     ))}
                 </motion.div>

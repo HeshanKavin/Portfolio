@@ -29,7 +29,7 @@ const Hero = () => {
                     variants={container(0.5)}
                     initial="hidden"
                     animate="visible"
-                    className="text-4xl font-semibold text-gray-300 mt-5">
+                    className="text-4xl font-semibold text-white mt-5">
                     A{" "}
                     <TypeAnimation
                         sequence={[
