@@ -35,33 +35,9 @@ const Hero = () => {
                         sequence={[
                             "Software Engineer", // Text to display
                             2000, // Wait 2 seconds
-                            "Software Developer",
-                            2000,
                             "Full Stack Developer",
                             2000,
-                            "Frontend Developer",
-                            2000,
-                            "Backend Developer",
-                            2000,
                             "Mobile App Developer",
-                            2000,
-                            "DevOps Engineer",
-                            2000,
-                            "Cloud Engineer",
-                            2000,
-                            "UI/UX Designer",
-                            2000,
-                            "Technical Lead",
-                            2000,
-                            "System Architect",
-                            2000,
-                            "Data Scientist",
-                            2000,
-                            "Machine Learning Engineer",
-                            2000,
-                            "Cybersecurity Specialist",
-                            2000,
-                            "Software Engineer", // Back to original text
                             2000,
                         ]}
                         wrapper="span"
@@ -75,10 +51,10 @@ const Hero = () => {
                         initial="hidden"
                         animate="visible"
                         className="flex justify-center md:justify-start gap-4">
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/HeshanKavin" target="_blank" rel="noopener noreferrer">
                             <FaGithub className="text-4xl hover:text-blue-400 transition" />
                         </a>
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://linkedin.com/in/heshan-kavinda-5b3217217" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin className="text-4xl hover:text-blue-400 transition" />
                         </a>
                     </motion.div>

@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav className="fixed flex top-0 left-0 right-0 justify-between items-center  px-10 md:px-40 py-5 z-50 bg-[#03141D]">
             {/* Logo */}
-            <h1 className="text-2xl font-bold text-blue-400">&lt;/HesHan&gt;</h1>
+            <h1 className="text-2xl font-bold text-blue-400 hover:text-[#FFFFFF]"><a href="#home">&lt;/HesHan&gt;</a></h1>
 
             {/* Desktop Menu */}
             <ul className="hidden md:flex gap-8 text-lg">

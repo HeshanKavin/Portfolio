@@ -25,7 +25,9 @@ const Contact = () => {
                     transition={{ duration: 1 }}
                     className="my-3">{CONTACT.phoneNo}</motion.p>
                 <a href="#" className="my-3">{CONTACT.email}</a>
-                <p className="my-5 border-t border-blue-400 pt-10">@2024 | HesHan Dissanayaka</p>
+                <p className="my-5 border-t border-blue-400 pt-10">
+                    &copy; {new Date().getFullYear()} | HesHan Dissanayaka
+                </p>
             </div>
         </div>
     )
