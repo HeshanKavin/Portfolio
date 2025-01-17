@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/personal blog.png";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
 
 
 export const ABOUT_TEXT = `I am an enthusiastic undergraduate student in Computer Science, with a strong foundation in software engineering and a passion for building innovative solutions. As a Full-Stack Developer, my expertise spans web development and mobile app development, and I am always eager to learn and adapt to new technologies. Beyond my technical skills, I value clear communication, teamwork, leadership, and problem-solving, ensuring that I contribute effectively to any project.`;
