@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import profilePic from "../assets/heshanProfile.jpg";
+import profilePic from "../assets/heshan.png";
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 
