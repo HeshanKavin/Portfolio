@@ -53,21 +53,21 @@ const Projects = () => {
                                 >{tech}</span>
                             ))}
                             <div className="mt-4">
-                                <a
+                                {/* <a
                                     href={project.github}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="mr-4 text-blue-400 underline"
                                 >
                                     GitHub
-                                </a>
+                                </a> */}
                                 <a
                                     href={project.liveDemo}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-blue-400 underline"
                                 >
-                                    Live Demo
+                                    Link
                                 </a>
                             </div>
                         </motion.div>
