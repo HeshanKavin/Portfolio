@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
 
 export const ABOUT_TEXT = `I am an enthusiastic undergraduate student in Computer Science, with a strong foundation in software engineering and a passion for building innovative solutions. As a Full-Stack Developer, my expertise spans web development and mobile app development, and I am always eager to learn and adapt to new technologies. Beyond my technical skills, I value clear communication, teamwork, leadership, and problem-solving, ensuring that I contribute effectively to any project.`;
@@ -62,6 +63,15 @@ export const PROJECTS = [
         technologies: ["Next.js", "Supabase", "TypeScript", "TailwindCSS"],
         github: "https://github.com/HeshanKavin/Personal_Blog",
         liveDemo: "https://heshan-blog.vercel.app/",
+    },
+    {
+        title: "CV Creator Mobile App Design",
+        image: project4,
+        description:
+            "A sleek mobile app concept designed in Figma to simplify CV creation. It features customizable templates, real-time previews, and profile management, ensuring users can effortlessly craft professional resumes.",
+        technologies: ["Figma"],
+        github: "https://github.com/HeshanKavin/CV-Creator-Mobile-App",
+        liveDemo: "",
     },
 ];
 
