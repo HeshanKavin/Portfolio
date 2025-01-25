@@ -71,7 +71,7 @@ export const PROJECTS = [
             "A sleek mobile app concept designed in Figma to simplify CV creation. It features customizable templates, real-time previews, and profile management, ensuring users can effortlessly craft professional resumes.",
         technologies: ["Figma"],
         github: "https://github.com/HeshanKavin/CV-Creator-Mobile-App",
-        liveDemo: "",
+        liveDemo: "https://github.com/HeshanKavin/CV-Creator-Mobile-App",
     },
 ];
 
