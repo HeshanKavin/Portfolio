@@ -73,6 +73,15 @@ export const PROJECTS = [
         github: "https://github.com/HeshanKavin/CV-Creator-Mobile-App",
         liveDemo: "https://github.com/HeshanKavin/CV-Creator-Mobile-App",
     },
+    {
+        title: "Flavor Exchange – Recipe Sharing Platform",
+        image: project5,
+        description:
+            "Developed a modern recipe-sharing platform enabling users to add, edit, delete, and save recipes with an intuitive and responsive UI.Implemented smart search & filtering, social sharing, cooking timer, dark mode, and local datapersistence.Integrated mock API for CRUD operations and managed global state efficiently using Zustand",
+        technologies: [("React", "TypeScript", "Vite", "TailwindCSS", "shadcn/ui", "Zustand", "React Router", "JSON Server"],
+        github: "https://github.com/HeshanKavin/Flavor_Exchange",
+        liveDemo: "https://flavor-exchange-three.vercel.app/",
+    },
 ];
 
 export const CONTACT = {
